@@ -78,24 +78,4 @@ For more details, see [architecture.md](architecture.md).
 - [ ] Test using authorized sample captures and a controlled VPN lab.
 - [ ] Document results, limitations, and future improvements.
 
-## 🔐 Security and Limitations
 
-- Analyze only network traffic that you are authorized to inspect.
-- Encrypted ESP payloads generally prevent direct inspection of inner application data without appropriate decryption access.
-- Protocol findings must be based on observable evidence; unavailable information should be marked as unknown rather than guessed.
-- Machine-learning predictions must be distinguished from verified security findings.
-- Risk scores are assessment indicators, not guarantees that a VPN is secure or compromised.
-
-## 📌 Project Status
-
-**Status:** Planning and initial documentation.
-
-The architecture, design, and folder structure are being documented before implementation begins.
-
-## 👩‍💻 Contribution and Development
-
-The project will be developed incrementally, beginning with the packet parser and rule-based analysis engine before adding dashboard, reporting, and optional machine-learning capabilities.
-
-## 📄 License
-
-A license will be selected and added when the project distribution requirements are finalized.
